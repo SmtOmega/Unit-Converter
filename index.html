@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="input-container">
+                <h1>Metric/Imperial Unit Conversion</h1>
+                <span id="input-val">20</span>
+                <div>
+                    <input type="number" id="input-num" value="">
+                    <button onclick="convert()">Convert</button>
+                    <p id="demo"></p>
+                </div>
+            </div>
+            <div class="output-container">
+                <article>
+                    <h3>Length (Meter/Feet)</h3>
+                    <p id="met-feet"></p> 
+                </article>
+                <article>
+                    <h3>Volume (Liters/gallons)</h3>
+                    <p id="lit-gallon"></p>
+                </article>
+                <article>
+                    <h3>Mass (Kilograms/Pounds)</h3>
+                    <p id="kilo-pounds"></p>
+                </article>
+            </div>
+        </div>
+
+        
+    </body>
+</html>
